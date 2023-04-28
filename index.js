@@ -1,6 +1,7 @@
 
 const menuItems = document.querySelectorAll('.menu-item')
 
+//Messages
 const messageNotification = document.querySelector('#message-notifications');
 const messages= document.querySelector('.messages');
 
@@ -10,8 +11,8 @@ const messageSearch= document.querySelector('#search-message');
 
 
 //SIDEBAR
-//remove active class from all menu items
 
+//remove active class from all menu items
 
 const changeActiveItem = () =>{
     menuItems.forEach(item=>{
@@ -35,7 +36,7 @@ menuItems.forEach((item) => {
 
 //  messages
 
-//search message
+//search chat
 
  const searchMessage = () =>{
     const val = messageSearch.value.toLowerCase();
