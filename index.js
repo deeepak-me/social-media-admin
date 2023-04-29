@@ -8,7 +8,10 @@ const messages= document.querySelector('.messages');
 const message= document.querySelectorAll('.message');
 const messageSearch= document.querySelector('#search-message');
 
+//Theme
 
+const theme = document.querySelector('#theme');
+const themeModel = document.querySelector('.customize-theme');
 
 //SIDEBAR
 
@@ -60,3 +63,23 @@ messageNotification.addEventListener('click', ()=>{
         messages.style.boxShadow='none';
     },2000)
 })
+
+// Theme Customization 
+
+//open modal
+const openThemeModal=()=>{
+    themeModel.style.display= 'grid';
+}
+
+//close modal
+
+const closeThemeModal = (e)=>{
+    if(e.target.classList.contains('customize-theme')){
+        themeModel.style.display='none'
+    }
+}
+
+//close modal
+themeModel.addEventListener('click', closeThemeModal)
+
+theme.addEventListener('click', openThemeModal);
