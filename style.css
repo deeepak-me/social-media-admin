@@ -597,7 +597,7 @@ main .container .right{
     cursor: pointer;
 }
 
-.customize-theme .choose-size span:active{
+.customize-theme .choose-size span.active{
     background: var(--color-primary);
 }
 
