@@ -115,7 +115,7 @@ nav .container{
 
 .search-bar input[type="search"]{
     background: transparent;
-    width: 30vh;
+    width: 30vw;
     margin-left: 1rem;
     font-size: 0.9rem;
     color: var(--color-dark);
@@ -244,7 +244,7 @@ main .container .left .profile{
     padding: 1rem 0;
 }
 
-/* noti-popup */
+/* notification-popup */
 
 .left .notification-popup{
     position: absolute;
