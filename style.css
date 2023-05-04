@@ -134,9 +134,12 @@ nav .create{
 
 /* main */
 
-main{
+main {
     position: relative;
-    top: 5.4rem;
+    top: 66px;
+    height: calc(100vh - 66px);
+    overflow: hidden;   
+    padding-top: 1rem;
 }
 
 main .container{
@@ -372,6 +375,13 @@ main .container .left .profile{
 }
 
 /* feeds */
+
+.middle {
+    height: 100vh;
+    overflow-y: auto;
+    border-radius: var(--card-border-radius);
+    padding-bottom: 5rem;
+}
 
 .middle .feeds .feed{
     background: var(--color-white);
